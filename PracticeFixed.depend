@@ -1,11 +1,12 @@
 # depslib dependency file v1.0
-1713281567 source:d:\code\practicefixed\src\core\engine.cpp
+1713712675 source:d:\code\practicefixed\src\core\engine.cpp
 	"Engine.h"
 	"../Graphics/TextureManager.h"
 	"Vector2D.h"
 	"../../Transform.h"
+	"Warrior.h"
 
-1713152861 d:\code\practicefixed\src\core\engine.h
+1713688056 d:\code\practicefixed\src\core\engine.h
 	"SDL.h"
 	"SDL_image.h"
 
@@ -411,12 +412,12 @@
 	"begin_code.h"
 	"close_code.h"
 
-1713152333 d:\code\practicefixed\src\graphics\texturemanager.h
+1713346872 d:\code\practicefixed\src\graphics\texturemanager.h
 	<string>
 	"SDL.h"
 	<map>
 
-1713173257 source:d:\code\practicefixed\src\graphics\texturemanager.cpp
+1713713639 source:d:\code\practicefixed\src\graphics\texturemanager.cpp
 	"TextureManager.h"
 	"Engine.h"
 
@@ -425,4 +426,24 @@
 
 1713281668 d:\code\practicefixed\transform.h
 	"Vector2D.h"
+
+1713711694 source:d:\code\practicefixed\src\characters\warrior.cpp
+	"Warrior.h"
+	"SDL.h"
+	"../Graphics/TextureManager.h"
+
+1713412498 d:\code\practicefixed\src\characters\warrior.h
+	"Character.h"
+	"GameObject.h"
+
+1713349951 d:\code\practicefixed\src\src\characters\character.h
+	"GameObject.h"
+	<string>
+
+1713711642 d:\code\practicefixed\src\object\gameobject.h
+	"IObject.h"
+	"../../Transform.h"
+	"SDL_image.h"
+
+1713284372 d:\code\practicefixed\src\object\iobject.h
 

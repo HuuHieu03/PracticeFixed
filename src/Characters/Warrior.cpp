@@ -2,16 +2,16 @@
 #include "SDL.h"
 #include "../Graphics/TextureManager.h"
 
-Warrior::Warrior(Properties* prop) : Character(props)
+Warrior::Warrior(Properties* props) : Character(props)
 {
-    m_Row = 1;
-    m_FrameCount = 6;
-    m_AnimSpeed = 80
+    m_Row = 0;
+    m_FrameCount = 4;
+    m_AnimSpeed = 80;
 }
 
 void Warrior::Draw()
 {
-    TextureManager::GetInstance()->DrawFrame(m_TextureID, m_Transform->X, m_Transform->Y, m_Width, m_Height, m_Row, m_Frame)
+    TextureManager::GetInstance()->DrawFrame(m_TextureID, m_Transform->X, m_Transform->Y, m_Width, m_Height, m_Row, m_Frame);
 }
 
 void Warrior::Clean()

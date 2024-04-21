@@ -27,8 +27,8 @@ bool Engine::Init()
         return false;
     }
 
-    TextureManager::GetInstance()->Load("player", "assets/idle.png");
-    player = new Warrior(new Properties("player", 100, 200, 136, 96));
+    TextureManager::GetInstance()->Load("player", "assets/Idle-L.png");
+    player = new Warrior(new Properties("player", 200, 300, 256, 80));
 
     Transform tf;
     tf.Log();

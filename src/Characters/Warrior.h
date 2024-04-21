@@ -2,11 +2,12 @@
 #define WARRIOR_H
 
 #include "Character.h"
+#include "GameObject.h"
 
 class Warrior : public Character
 {
     public:
-        Character(Properties* props);
+        Warrior(Properties* props);
 
         virtual void Draw();
         virtual void Clean();

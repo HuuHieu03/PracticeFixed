@@ -3,13 +3,14 @@
 
 #include "IObject.h"
 #include "../../Transform.h"
+#include "SDL_image.h"
 
 struct Properties {
 
     public:
         Properties(std::string textureID, int x, int y, int width, int height, SDL_RendererFlip flip = SDL_FLIP_NONE) {
                 X = x;
-                Y= y;
+                Y = y;
                 Flip = flip;
                 Height = height;
                 TextureID = textureID;
@@ -25,7 +26,7 @@ struct Properties {
 class GameObject : public IObject
 {
     public:
-        GameObject(Properties* props) m_TextureID(props->TextureID),
+        GameObject(Properties* props): m_TextureID(props->TextureID),
             m_Width(props->Width), m_Height(props->Height), m_Flip(props->Flip) {
 
             m_Transform = new Transform(props->X, props->Y);

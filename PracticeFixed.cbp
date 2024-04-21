@@ -19,6 +19,8 @@
 					<Add directory="src/Physics" />
 					<Add directory="./" />
 					<Add directory="src/Object" />
+					<Add directory="src/src/Characters" />
+					<Add directory="src/Characters" />
 				</Compiler>
 				<Linker>
 					<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_image" />
@@ -37,6 +39,8 @@
 					<Add directory="src/Physics" />
 					<Add directory="./" />
 					<Add directory="src/Object" />
+					<Add directory="src/src/Characters" />
+					<Add directory="src/Characters" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -48,6 +52,8 @@
 		</Compiler>
 		<Unit filename="Transform.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Characters/Warrior.cpp" />
+		<Unit filename="src/Characters/Warrior.h" />
 		<Unit filename="src/Core/Engine.cpp" />
 		<Unit filename="src/Core/Engine.h" />
 		<Unit filename="src/Graphics/TextureManager.cpp" />
@@ -55,6 +61,7 @@
 		<Unit filename="src/Object/GameObject.h" />
 		<Unit filename="src/Object/IObject.h" />
 		<Unit filename="src/Physics/Vector2D.h" />
+		<Unit filename="src/src/Characters/Character.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
