@@ -12,7 +12,10 @@ Warrior::Warrior(Properties* props) : Character(props)
 void Warrior::Draw()
 {
     TextureManager::GetInstance()->DrawFrame(m_TextureID, m_Transform->X, m_Transform->Y, m_Width, m_Height, m_Row, m_Frame);
+    //TextureManager::GetInstance()->Draw(m_TextureID, m_Transform->X, m_Transform->Y, m_Width, m_Height);
+
 }
+
 
 void Warrior::Clean()
 {

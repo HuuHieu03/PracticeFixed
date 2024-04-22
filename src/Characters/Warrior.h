@@ -2,7 +2,6 @@
 #define WARRIOR_H
 
 #include "Character.h"
-#include "GameObject.h"
 
 class Warrior : public Character
 {

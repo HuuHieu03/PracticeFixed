@@ -4,7 +4,6 @@
 #include "IObject.h"
 #include "../../Transform.h"
 #include "SDL_image.h"
-
 struct Properties {
 
     public:
@@ -12,6 +11,7 @@ struct Properties {
                 X = x;
                 Y = y;
                 Flip = flip;
+                Width = width;
                 Height = height;
                 TextureID = textureID;
         }

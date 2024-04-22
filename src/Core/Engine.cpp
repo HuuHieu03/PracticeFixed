@@ -63,7 +63,7 @@ void Engine::Render()
     SDL_RenderClear(m_Renderer);
 
     player->Draw();
-//    TextureManager::GetInstance()->Draw("pokemon", 100, 100, 225, 225);
+    //TextureManager::GetInstance()->Draw("player", 100, 100, 225, 225);
     SDL_RenderPresent(m_Renderer);
 }
 
